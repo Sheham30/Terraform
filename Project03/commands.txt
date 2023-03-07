@@ -1,0 +1,8 @@
+terraform state list
+terraform state show aws_vpc.sh_vpc
+terraform show
+terraform state show aws_vpc.sh_vpc
+terraform fmt
+
+**To Access instance**
+ssh -i C:\Users\NK03\.ssh\shkey <username>@<publicip>
